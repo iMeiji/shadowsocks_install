@@ -24,7 +24,7 @@ cat > /etc/shadowsocks.json<<EOF
     "local_port":1080,
     "port_password":{
         "443":"password1",
-		"8888":"password2"
+	"8888":"password2"
     },
     "timeout":300,
     "method":"chacha20",
@@ -38,4 +38,4 @@ cd /root/shadowsocks/shadowsocks
 python server.py -c /etc/shadowsocks.json -d start
 
 cd /root
-rm -rf ss.sh
+rm -rf shadowsocksR.sh
