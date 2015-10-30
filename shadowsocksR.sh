@@ -35,7 +35,7 @@ cat > /etc/shadowsocks.json<<EOF
 EOF
 
 cd /root/shadowsocks/shadowsocks
-python server.py -c /etc/shadowsocks.json -d start
+python server.py -c /etc/shadowsocks.json -d restart
 
 cd /root
 rm -rf shadowsocksR.sh
