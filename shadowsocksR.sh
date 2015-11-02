@@ -1,4 +1,5 @@
 #!/bin/bash
+# https://github.com/breakwa11/shadowsocks-rss
 cd /root
 rm -rf shadowsocks
 apt-get update && apt-get upgrade -y
