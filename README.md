@@ -9,6 +9,7 @@
 详细安装教程
 ---
 - [搭建OpenConnect VPN server](https://github.com/iMeiji/shadowsocks_install/wiki/OpenConnect-VPN-server)
+- [搭建shadowsocksR](https://github.com/breakwa11/shadowsocks-rss/wiki/Server-Setup)
 - [搭建shadowsocks libev](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocks-libev)
 - [搭建shadowsocks libev SSR](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocks-libev-SSR)
 - [shadowsocks 优化篇](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocks-optimize)
