@@ -1,39 +1,15 @@
-Auto install shadowsocks server
-===============================
+一键安装 shadowsocks server
+---
 
-shadowsocks.sh
---------------
+- [shadowsocksR 一键安装](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocksR-%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85)
+- [shadowsocks Python 一键安装](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocks-Python-%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85)  
+- [shadowsocks libev 一键安装](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocks-libev-%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85)
+- [shadowsocks go 一键安装](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocks-go-%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85)
 
-> Description: Auto Install Shadowsocks(Python) for CentOS/Redhat/Fedora/Debian/Ubuntu
-> 
-> Intro: https://teddysun.com/342.html
-
-shadowsocks-libev.sh
---------------------
-
-> Description: Auto Install Shadowsocks(libev) for CentOS/Redhat/Fedora
-> 
-> Intro: https://teddysun.com/357.html
-
-shadowsocks-libev-debian.sh
----------------------------
-
-> Description: Auto Install Shadowsocks(libev) for Debian/Ubuntu
-> 
-> Intro: https://teddysun.com/358.html
-
-shadowsocks-go.sh
------------------
-
-> Description: Auto Install Shadowsocks(Go) for CentOS/Redhat/Fedora/Debian/Ubuntu
-> 
-> Intro: https://teddysun.com/392.html
-
-shadowsocks-nodejs.sh (Deprecated)
-----------------------------------
-
-> Description: Auto Install Shadowsocks(NodeJS) for CentOS/Redhat/Fedora
-> 
-> Intro: https://teddysun.com/355.html
-
-Copyright (C) 2015 Teddysun <i@teddysun.com>
+详细安装教程
+---
+- [搭建OpenConnect VPN server](https://github.com/iMeiji/shadowsocks_install/wiki/OpenConnect-VPN-server)
+- [搭建shadowsocksR](https://github.com/breakwa11/shadowsocks-rss/wiki/Server-Setup)
+- [搭建shadowsocks libev](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocks-libev)
+- [搭建shadowsocks libev SSR](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocks-libev-SSR)
+- [shadowsocks 优化篇](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocks-optimize)
