@@ -15,8 +15,9 @@
 优化 shadowsocks server
 ---
 - [shadowsocks 优化篇](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocks-optimize)
-- [Net Speeder](https://github.com/iMeiji/shadowsocks_install/wiki/Net-Speeder)
+- [net speeder](https://github.com/iMeiji/shadowsocks_install/wiki/Net-Speeder)
 - [FinalSpeed](https://github.com/d1sm/finalspeed)
+- [serverspeeder](https://github.com/91yun/serverspeeder)
 
 其他
 ---
