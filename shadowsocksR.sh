@@ -153,12 +153,12 @@ function download_files(){
     fi
     # Download ShadowsocksR chkconfig file
     if [ "$OS" == 'CentOS' ]; then
-        if ! wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR -O /etc/init.d/shadowsocks; then
+        if ! wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR -O /etc/init.d/shadowsocksR; then
             echo "Failed to download ShadowsocksR chkconfig file!"
             exit 1
         fi
     else
-        if ! wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR-debian -O /etc/init.d/shadowsocks; then
+        if ! wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR-debian -O /etc/init.d/shadowsocksR; then
             echo "Failed to download ShadowsocksR chkconfig file!"
             exit 1
         fi
@@ -167,7 +167,7 @@ function download_files(){
 
 # Config ShadowsocksR
 function config_shadowsocks(){
-    cat > /etc/shadowsocks.json<<-EOF
+    cat > /etc/shadowsocksR.json<<-EOF
 {
     "server":"0.0.0.0",
     "server_ipv6":"::",
@@ -201,7 +201,7 @@ function install_ss(){
     unzip -q manyuser.zip
     mv shadowsocks-manyuser/shadowsocks /usr/local/
     if [ -f /usr/local/shadowsocks/server.py ]; then
-        chmod +x /etc/init.d/shadowsocks
+        chmod +x /etc/init.d/shadowsocksR
         # Add run on system start up
         if [ "$OS" == 'CentOS' ]; then
             chkconfig --add shadowsocks
@@ -210,7 +210,7 @@ function install_ss(){
             update-rc.d shadowsocks defaults
         fi
         # Run ShadowsocksR in the background
-        /etc/init.d/shadowsocks start
+        /etc/init.d/shadowsocksR start
         clear
         echo ""
         echo "Congratulations, ShadowsocksR install completed!"
@@ -255,9 +255,9 @@ function uninstall_shadowsocks(){
         answer="n"
     fi
     if [ "$answer" = "y" ]; then
-        /etc/init.d/shadowsocks status > /dev/null 2>&1
+        /etc/init.d/shadowsocksR status > /dev/null 2>&1
         if [ $? -eq 0 ]; then
-            /etc/init.d/shadowsocks stop
+            /etc/init.d/shadowsocksR stop
         fi
         checkos
         if [ "$OS" == 'CentOS' ]; then
@@ -265,9 +265,9 @@ function uninstall_shadowsocks(){
         else
             update-rc.d -f shadowsocks remove
         fi
-        rm -f /etc/shadowsocks.json
-        rm -f /etc/init.d/shadowsocks
-        rm -rf /usr/local/shadowsocks
+        rm -f /etc/shadowsocksR.json
+        rm -f /etc/init.d/shadowsocksR
+        rm -rf /usr/local/shadowsocksR
         echo "ShadowsocksR uninstall success!"
     else
         echo "uninstall cancelled, Nothing to do"
