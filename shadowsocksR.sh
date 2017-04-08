@@ -142,7 +142,7 @@ function pre_install(){
 # Download files
 function download_files(){
     # Download libsodium file
-    if ! wget --no-check-certificate -O libsodium-1.0.8.tar.gz https://github.com/jedisct1/libsodium/releases/download/1.0.8/libsodium-1.0.8.tar.gz; then
+    if ! wget --no-check-certificate -O libsodium-1.0.12.tar.gz https://github.com/jedisct1/libsodium/releases/download/1.0.12/libsodium-1.0.12.tar.gz; then
         echo "Failed to download libsodium file!"
         exit 1
     fi
@@ -176,10 +176,10 @@ function config_shadowsocks(){
     "local_port":1080,
     "password":"${shadowsockspwd}",
     "timeout":120,
-    "method":"aes-256-cfb",
+    "method":"chacha20",
     "protocol":"origin",
     "protocol_param":"",
-    "obfs":"plain",
+    "obfs":"http_simple_compatible",
     "obfs_param":"",
     "redirect":"",
     "dns_ipv6":false,
@@ -192,8 +192,8 @@ EOF
 # Install ShadowsocksR
 function install_ss(){
     # Install libsodium
-    tar zxf libsodium-1.0.8.tar.gz
-    cd $cur_dir/libsodium-1.0.8
+    tar zxf libsodium-1.0.12.tar.gz
+    cd $cur_dir/libsodium-1.0.12
     ./configure && make && make install
     ldconfig
     # Install ShadowsocksR
@@ -241,8 +241,8 @@ function install_cleanup(){
     cd $cur_dir
     rm -f manyuser.zip
     rm -rf shadowsocks-manyuser
-    rm -f libsodium-1.0.8.tar.gz
-    rm -rf libsodium-1.0.8
+    rm -f libsodium-1.0.12.tar.gz
+    rm -rf libsodium-1.0.12
 }
 
 
