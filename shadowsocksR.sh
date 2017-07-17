@@ -199,7 +199,7 @@ function install_ss(){
     # Install ShadowsocksR
     cd $cur_dir
     unzip -q manyuser.zip
-    mv shadowsocks-manyuser/shadowsocks /usr/local/
+    mv shadowsocksr-manyuser/shadowsocks /usr/local/
     if [ -f /usr/local/shadowsocks/server.py ]; then
         chmod +x /etc/init.d/shadowsocks
         # Add run on system start up
