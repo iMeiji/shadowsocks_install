@@ -8,7 +8,7 @@
 
 详细安装 shadowsocks server
 ---
-- [搭建shadowsocksR](https://github.com/breakwa11/shadowsocks-rss/wiki/Server-Setup)
+- [搭建shadowsocksR](https://github.com/iMeiji/shadowsocks_install/blob/master/shadowsocksR-wiki/Server-Setup.md)
 - [搭建shadowsocks libev](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocks-libev)
 - [搭建shadowsocksR libev](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocksR-libev)
 
@@ -21,10 +21,13 @@
 | [net speeder](https://github.com/iMeiji/shadowsocks_install/wiki/Net-Speeder) | [kcptun](https://github.com/xtaci/kcptun) |
 | [serverspeeder](https://github.com/91yun/serverspeeder) | [FinalSpeed](https://github.com/91yun/finalspeed) |
 | [TCP BBR](https://github.com/iMeiji/shadowsocks_install/wiki/%E5%BC%80%E5%90%AFTCP-BBR%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6%E7%AE%97%E6%B3%95) |                                          |
+| [TCP BBR 魔改版](https://moeclub.org/2017/06/24/278/) |                                          |
 
 
 其他
 ---
 - [搭建OpenConnect VPN server](https://github.com/iMeiji/shadowsocks_install/wiki/OpenConnect-VPN-server)
-- [shadowsocksR 文档](https://github.com/iMeiji/shadowsocks_install/shadowsocksR-wiki)
+- [shadowsocksR 文档](https://github.com/iMeiji/shadowsocks_install/tree/master/shadowsocksR-wiki)
+- [shadowsocksR 客户端](https://github.com/iMeiji/shadowsocks_install/releases/tag/0.13)
+
 
