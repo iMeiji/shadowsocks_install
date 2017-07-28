@@ -29,5 +29,6 @@
 - [搭建OpenConnect VPN server](https://github.com/iMeiji/shadowsocks_install/wiki/OpenConnect-VPN-server)
 - [shadowsocksR 文档](https://github.com/iMeiji/shadowsocks_install/tree/master/shadowsocksR-wiki)
 - [shadowsocksR 客户端](https://github.com/iMeiji/shadowsocks_install/releases/tag/0.13)
+- [shadowsocksR 源码](https://github.com/shadowsocksr-rm) 
 
 
