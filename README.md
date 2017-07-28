@@ -16,13 +16,15 @@
 ---
 - [shadowsocks 优化篇](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocks-optimize)    
 
-单边加速|双边加速
------|-----
-[net speeder](https://github.com/iMeiji/shadowsocks_install/wiki/Net-Speeder) | [kcptun](https://github.com/xtaci/kcptun)  
-[serverspeeder](https://github.com/91yun/serverspeeder) | [FinalSpeed](https://github.com/91yun/finalspeed)
-[TCP BBR](https://github.com/iMeiji/shadowsocks_install/wiki/%E5%BC%80%E5%90%AFTCP-BBR%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6%E7%AE%97%E6%B3%95) | 
+| 单边加速                                     | 双边加速                                     |
+| ---------------------------------------- | ---------------------------------------- |
+| [net speeder](https://github.com/iMeiji/shadowsocks_install/wiki/Net-Speeder) | [kcptun](https://github.com/xtaci/kcptun) |
+| [serverspeeder](https://github.com/91yun/serverspeeder) | [FinalSpeed](https://github.com/91yun/finalspeed) |
+| [TCP BBR](https://github.com/iMeiji/shadowsocks_install/wiki/%E5%BC%80%E5%90%AFTCP-BBR%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6%E7%AE%97%E6%B3%95) |                                          |
 
 
 其他
 ---
 - [搭建OpenConnect VPN server](https://github.com/iMeiji/shadowsocks_install/wiki/OpenConnect-VPN-server)
+- [shadowsocksR 文档](https://github.com/iMeiji/shadowsocks_install/shadowsocksR-wiki)
+
