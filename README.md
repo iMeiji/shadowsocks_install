@@ -10,7 +10,6 @@
 ---
 - [搭建shadowsocksR](https://github.com/iMeiji/shadowsocks_install/blob/master/shadowsocksR-wiki/Server-Setup.md)
 - [搭建shadowsocks libev](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocks-libev)
-- [搭建shadowsocksR libev](https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocksR-libev)
 
 优化 shadowsocks server
 ---
@@ -28,6 +27,7 @@
 - [搭建 sspanel v3 魔改版记录(旧分支)](https://github.com/iMeiji/shadowsocks_install/wiki/%E6%90%AD%E5%BB%BA-sspanel-v3-%E9%AD%94%E6%94%B9%E7%89%88%E8%AE%B0%E5%BD%95)
 - [搭建 sspanel v3 魔改版记录(新分支)](https://github.com/iMeiji/ss-panel-v3-mod/wiki/%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E-lnmp1.4)
 - [HTTP API 介绍](https://github.com/iMeiji/ss-panel-v3-mod/wiki/%E4%BB%8Emaster%E5%88%86%E6%94%AF%E5%8D%87%E7%BA%A7%E5%88%B0new_master%E5%88%86%E6%94%AF#%E5%8D%87%E7%BA%A7%E5%90%8E%E7%AB%AF)
+- [使用Redis登录验证](https://github.com/iMeiji/ss-panel-v3-mod/wiki/sspanel-v3-%E9%AD%94%E6%94%B9%E7%89%88-%E4%BD%BF%E7%94%A8Redis%E9%AA%8C%E8%AF%81)
 
 其他
 ---
